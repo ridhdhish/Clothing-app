@@ -1,0 +1,11 @@
+.title {
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  width: auto;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.7rem 2rem;
+  margin-bottom: -1rem;
+  margin-left: -36rem;
+  border-radius: 25px;
+}

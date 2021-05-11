@@ -7,8 +7,7 @@ import Banner2 from "../../assets/Banner/banner2.jpg";
 
 export default function Banner() {
   return (
-    //   Display text and button on carousal
-    <div style={{ margin: "3rem 10rem" }}>
+    <div>
       <Carousel
         showThumbs={false}
         dynamicHeight={false}
@@ -27,7 +26,22 @@ export default function Banner() {
             src={Banner1}
             alt="img1"
           />
-          <p className="legend">Hello</p>
+          {/* <p
+            style={{
+              cursor: "pointer",
+              background: "rgba(0, 0, 0, 1)",
+              width: "auto",
+              fontSize: "1.3rem",
+              fontWeight: "bold",
+              padding: "0.7rem 2rem",
+              marginBottom: "-1rem",
+              marginLeft: "-36rem",
+              borderRadius: "25px",
+            }}
+            className="legend"
+          >
+            Shop Now
+          </p> */}
         </div>
         <div style={{ cursor: "grab" }}>
           <img
@@ -35,7 +49,22 @@ export default function Banner() {
             src={Banner2}
             alt="img1"
           />
-          <p className="legend">Noob</p>
+          {/* <p
+            style={{
+              cursor: "pointer",
+              background: "rgba(0, 0, 0, 1)",
+              width: "auto",
+              fontSize: "1.3rem",
+              fontWeight: "bold",
+              padding: "0.7rem 2rem",
+              marginBottom: "-1rem",
+              marginLeft: "-36rem",
+              borderRadius: "25px",
+            }}
+            className="legend"
+          >
+            Explore
+          </p> */}
         </div>
       </Carousel>
     </div>

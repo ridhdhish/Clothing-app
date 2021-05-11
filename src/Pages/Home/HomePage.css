@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #303030;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  font-size: 1.1rem;
+}
