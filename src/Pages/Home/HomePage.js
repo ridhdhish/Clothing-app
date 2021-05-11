@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Banner from "../../Components/Banner/Banner";
 import Product from "../../Components/Product/Product";
+import Catagory from "../../Components/Category/Category";
 
 import Jeans from "../../assets/jeans.jpg";
 import Shirt1 from "../../assets/shirt1.jpg";
@@ -39,6 +40,16 @@ export default function HomePage() {
         </div>
         <div>
           <Product images={[L1, L2, L3]} />
+        </div>
+      </div>
+
+      {/* Displaying Collection/Catagoryy of products here */}
+      <div>
+        <div style={{ marginTop: "5rem" }} className="header">
+          <p>Catagories</p>
+        </div>
+        <div>
+          <Catagory images={[Jeans, Shirt2, Shirt1]} />
         </div>
       </div>
     </div>

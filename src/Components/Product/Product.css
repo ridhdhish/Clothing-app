@@ -3,6 +3,7 @@
   width: 25vw;
   background-color: rgb(245, 212, 212);
   transition: 400ms;
+  cursor: pointer;
 }
 
 .container {
@@ -13,4 +14,21 @@
 .card:hover {
   transform: scale(1.1);
   transition: 400ms;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.details .name {
+  color: #404040;
+}
+
+.details .price {
+  color: rgb(119, 119, 119);
 }
